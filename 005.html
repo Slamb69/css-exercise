@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>005.html</title>
+    <style type="text/css">
+      .box {
+        width: 100px;
+        height: 100px; 
+        margin: 50px; 
+        background-color: black; 
+        display: inline-block; 
+        position: relative;
+
+      }
+      .boxr {
+        position: fixed;
+        margin-right: 50px;
+        margin-left: 0; 
+      }
+      #top {
+        background-color: red;
+        width: 350px;
+        height: 200px;
+        display: block; 
+      }
+       #bottom {
+        background-color: blue;
+        width: 350px;
+        height: 200px;
+      }
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      <div class="box"></div>
+      <div class="box boxr"></div>
+    </div>
+    <div id="bottom">
+      <div class="box"></div>
+      <div class="box boxr"></div>
+    </div>
+  </body>
+</html>
